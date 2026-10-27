@@ -20,7 +20,7 @@ Before conducting our analysis, we need to undergo a cleaning process to the ori
    ```
 9. In the "AI_Tool" column, replace every occurence of "Ai" with "AI", "Chatgpt" with "ChatGPT" and "Chat gpt" with "ChatGPT"
 10. In the "Education_Level" column, perform these listed replacements:
-    - BA/BSc -> Bachelor
+    - BA/BSc —> Bachelor
     - MA/MSc —> Master
     - Ph.D. —> PhD
     - Masters —> Master
