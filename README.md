@@ -9,7 +9,7 @@ Before conducting our analysis, we need to undergo a cleaning process to the ori
 ### Steps
 1. Change the column type of the "Age" column from Text to Number
 2. Change the column type of the "Monthly_Income" from Text to Currency
-3. Capitalize each word in the columns: Country, Gender, AI_Tool
+3. Capitalize each word in the columns: Country, Gender and AI_Tool
 4. In the "Gender" column, use find and replace to substitute every occurence of "F" with "Female" and "M" with "Male"
 5. In the "Education_Level" column, remove every occurence of "'s"
 6. Remove any row that contains an error or a null tag
