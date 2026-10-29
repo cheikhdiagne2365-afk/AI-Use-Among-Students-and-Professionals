@@ -3,6 +3,27 @@ Data Analysis and Visualization project to determine the use, impact and effecti
 
 Original Database: https://www.kaggle.com/datasets/eishatuzzuhra/ai-usage-and-impact-on-students-and-professionals
 
+## Columns
+- User_ID
+- Age
+- Gender
+- Country
+- User_Type
+- Education_Level
+- Profession
+- Monthly_Income
+- AI_Tool
+- AI_Purpose
+- AI_Usage_Hours_Per_Day
+- Tasks_Performed
+- Monthly_AI_Cost
+- Productivity_Score
+- Accuracy_Rating
+- Satisfaction_Score
+- Time_Saved_Hours_Per_Week
+- Work_or_Study_Hours_Per_Day
+- Would_Recommend
+
 ## Database Cleaning Process
 Before conducting our analysis, we need to undergo a cleaning process to the original database. This will allow us to maximize the accuracy of the data analysis and visualization process. The cleaning of the data will be done using PowerQuery on Microsoft Excel.
 
