@@ -34,14 +34,15 @@ Before conducting our analysis, we need to undergo a cleaning process to the ori
 4. In the "Gender" column, use find and replace to substitute every occurence of "F" with "Female" and "M" with "Male"
 5. In the "Country" column, replace every occurence of "U.K." with "United Kingdom" and "United States of America" with "United States"
 6. In the "Education_Level" column, remove every occurence of "'s"
-7. Remove any row that contains an error or a null tag
-8. Remove any duplicate rows
-9. Remove any row that contain an empty cell
+7. In the "AI_Tool" column, replace "Gemini" with "Google Gemini"
+8. Remove any row that contains an error or a null tag
+9. Remove any duplicate rows
+10. Remove any row that contain an empty cell
    ```
    Table.SelectRows(#"[Name_of_Previous_Step]", each not List.AnyTrue(List.Transform(Record.FieldValues(_), each _ = null or _ = "")))
    ```
-10. In the "AI_Tool" column, replace every occurence of "Ai" with "AI", "Chatgpt" with "ChatGPT" and "Chat gpt" with "ChatGPT"
-11. In the "Education_Level" column, perform these listed replacements:
+11. In the "AI_Tool" column, replace every occurence of "Ai" with "AI", "Chatgpt" with "ChatGPT" and "Chat gpt" with "ChatGPT"
+12. In the "Education_Level" column, perform these listed replacements:
     - BA/BSc —> Bachelor
     - MA/MSc —> Master
     - Ph.D. —> PhD
@@ -50,6 +51,6 @@ Before conducting our analysis, we need to undergo a cleaning process to the ori
     - undergrad —> Undergraduate
     - Bachelors —> Bachelor
     - Diploma —> Other
-12. For the "AI_Usage_Hours_Per_Day", "Time_Saved_Hours_Per_Week" and "Work_or_Study_Hours_Per_Week" columns, remove every occurence of "hrs"
-13. For the same columns as step 11, change the column type from Text to Decimal
-14. For the "Tasks_Performed" column, translate any cell content that isn't written in English
+13. For the "AI_Usage_Hours_Per_Day", "Time_Saved_Hours_Per_Week" and "Work_or_Study_Hours_Per_Week" columns, remove every occurence of "hrs"
+14. For the same columns as step 11, change the column type from Text to Decimal
+15. For the "Tasks_Performed" column, translate any cell content that isn't written in English
