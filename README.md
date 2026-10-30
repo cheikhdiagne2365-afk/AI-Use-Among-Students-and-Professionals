@@ -34,7 +34,7 @@ Before conducting our analysis, we need to undergo a cleaning process to the ori
 4. In the "Gender" column, use find and replace to substitute every occurence of "F" with "Female" and "M" with "Male"
 5. In the "Country" column, replace every occurence of "U.K." with "United Kingdom" and "United States of America" with "United States"
 6. In the "Education_Level" column, remove every occurence of "'s"
-7. In the "AI_Tool" column, replace "Gemini" with "Google Gemini"
+7. In the "AI_Tool" column, replace "Gemini" with "Google Gemini" and "Copilot" with "Microsoft Copilot"
 8. Remove any row that contains an error or a null tag
 9. Remove any duplicate rows
 10. Remove any row that contain an empty cell
