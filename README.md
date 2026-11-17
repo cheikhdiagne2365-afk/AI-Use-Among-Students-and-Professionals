@@ -1,4 +1,4 @@
-# AI-Use-Among-Students-and-Professionals
+# AI Use Among Students and Professionals
 Data Analysis and Visualization project to determine the use, impact and effectiveness of AI among a population of students and working professionals.
 
 Original Database: https://www.kaggle.com/datasets/eishatuzzuhra/ai-usage-and-impact-on-students-and-professionals
